@@ -1,3 +1,5 @@
 def my_each(collection) # put argument(s) here
-  yield
+  array_counter = 0
+  while array_counter != collection.size
+    yield
 end
